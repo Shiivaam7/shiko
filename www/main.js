@@ -24,7 +24,7 @@ $(document).ready(function () {
   });
 
   //shiri message animation
-    $('.shiri-message').textillate({
+    $('.siri-message').textillate({
         loop: true,
         sync: true,
         in:{
@@ -42,6 +42,7 @@ $(document).ready(function () {
         eel.playAssistantSound()
         $("#oval").attr("hidden",true);
         $("#SiriWave").attr("hidden",false);
+        eel.takecommand()()
     
 
 
